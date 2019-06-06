@@ -146,7 +146,7 @@ public class ConsumerApplication {
                 return defaultProviderServiceFallback;
             }
         }
-    }
+}
 
     public static void main(String[] args) {
         SpringApplication.run(ConsumerApplication.class, args);
